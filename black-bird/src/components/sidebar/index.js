@@ -7,6 +7,8 @@ import { FaSignOutAlt } from "react-icons/fa";
 import { IoLibrary } from "react-icons/io5";
 import apiClient from '../../spotify';
 
+const redirectUri = process.env.REACT_APP_SPOTIFY_REDIRECT_URI;
+
 export default function Sidebar() {
   const [image, setImage] = useState(
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdLAY3C19kL0nV2bI_plU3_YFCtra0dpsYkg&usqp=CAU"
@@ -19,7 +21,7 @@ export default function Sidebar() {
   }, []);
 
   const handleProfileClick = () => {
-    window.location.href = REACT_APP_SPOTIFY_REDIRECT_URI;
+    window.location.href = redirectUri;
   };
 
   const handleSignOut = () => {
