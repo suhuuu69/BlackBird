@@ -1,0 +1,15 @@
+.screen-container{
+    width: calc(100% - 100px);
+    height: 100%;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-sizing: border-box;
+    background: rgb(34,34,34);
+    background: linear-gradient(90deg, 
+    rgba(34,34,34,1) 0%, rgba(46,46,46,1) 20%, rgba(19,19,19,1) 60%, rgba(0,0,0,1) 100%);
+}
+
+.flex {
+    display: flex;
+}

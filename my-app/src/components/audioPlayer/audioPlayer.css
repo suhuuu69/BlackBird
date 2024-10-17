@@ -1,0 +1,15 @@
+.player-body {
+    width: 70%;
+    height: 50%;
+    margin-top: 10px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.song-duration{
+    color: white;
+    font-size: 10px;
+    justify-content: space-between;
+}
+
+

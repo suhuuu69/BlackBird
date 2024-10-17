@@ -1,0 +1,38 @@
+.sidebar-container{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+  
+  .sign-out-button {
+    display: flex;
+    font-weight: 500;
+    font-size: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffffd3;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .sign-out-button:hover {
+    color: #ffffff; 
+  }
+
+  .button-title{
+    margin-left: 6px;
+  }
+  
