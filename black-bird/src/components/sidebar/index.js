@@ -19,7 +19,7 @@ export default function Sidebar() {
   }, []);
 
   const handleProfileClick = () => {
-    window.location.href = 'http://localhost:3000/feed';
+    window.location.href = REACT_APP_SPOTIFY_REDIRECT_URI;
   };
 
   const handleSignOut = () => {
